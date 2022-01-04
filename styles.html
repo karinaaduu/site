@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title >smart wardrobe</title>
+    <link rel="stylesheet" href="../css/style_sw.css">
+    <link rel="icon" href="../images/copy_icon64x64.png" type=”image/png”>.
+
+</head>
+<body>
+    <nav>
+        <ul class="menu--vert">
+            <li><a href="smart_wardrobe.html">SW</a></li>
+            <li><a href="styles.html">STYLES</a>
+            <!-- <ul class="submenu">
+                <li><a href="">asian fashion</a></li>
+                <li><a href="">european fashion</a></li>
+                <li><a href="">american fashion</a></li>
+                <li><a href="">tik-tok fashion</a>
+                    <ul class="submenu">
+                        <li><a href=""> alt girl</a></li>
+                        <li><a href=""> e-girl</a></li>
+                        <li><a href=""> coconut girl</a></li>
+                    </ul>
+                </li>           
+            </ul> -->
+            </li>
+            <li><a href="">OUTFIT MAKER</a></li>
+            <li><a href="SIZE_TABLE.html">SIZE TABLE</a></li>
+        </ul>
+    </nav>
+        <!-- Menu -->
+    <div class="content">
+        <ul id="menu">
+            <li><div>asian fashion</div></li>
+            <li><div class="not1">european fashion</div></li>
+            <li><div class="not1">tik-tok fashion ...</div>
+                <ul>
+                    <li><div>alt girl</div></li>
+                    <li><div class="not1">e-girl</div></li>
+                    <li><div class="not1">coconut girl</div></li>
+                </ul>
+            </li>
+            <li><div class="not1">Item 4</div></li>
+            <li><div class="not1">Item 5</div></li>
+        </ul>
+        <!-- Tabs -->
+
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Перша сторінка</a></li>
+                <li><a href="#tabs-2">Друга сторінка</a></li>
+                <li><a href="#tabs-3">Третя сторінка</a></li>
+            </ul>
+            <div id="tabs-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            <div id="tabs-2">Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet ornare, felis. Maecenas scelerisque sem non nisl. Fusce sed lorem in enim dictum bibendum.</div>
+            <div id="tabs-3">Nam dui erat, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.</div>
+        </div>
+        <!-- Tooltip -->
+
+        <p id="tooltip">
+            <a href="#" title="підказочка">Tooltips</a> can be attached to any element. When you hover
+        the element with your mouse, the title attribute is displayed in a little box next to the element, just like a native tooltip.
+        </p>
+    </div>
+    <script src="../js/external/jquery/jquery.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+
+    <script>
+
+        $( "#tabs" ).tabs();
+
+        $( "#menu" ).menu();
+
+        $( "#tooltip" ).tooltip();
+
+    </script> 
+</body>
+</html>
